@@ -1,0 +1,306 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    transition: 3s linear;
+}
+
+header {
+    display: flex;
+    padding: 1%;
+    background-color: rgb(249, 149, 149);
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 180px;
+}
+
+nav {
+    margin-right: 100px;
+    margin: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+.main {
+    background-image: url(/images/food.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(11, 11, 11);
+    font-size: 50px;
+}
+
+p {
+    color: rgb(233, 13, 134);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.btn {
+    height: 35px;
+    width: 120px;
+    margin-top: 15px;
+    background-color: rgb(243, 8, 28);
+    border: none;
+    border-radius: 3px;
+    color: beige;
+    font-size: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.bt {
+    height: 35px;
+    width: 120px;
+    margin-top: 15px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgb(243, 8, 28);
+    border-radius: 3px;
+    color: beige;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.why {
+    padding: 30px;
+    padding-left: 100px;
+    background-color: rgb(249, 172, 221);
+}
+
+.why p {
+    color: rgb(74, 63, 63);
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: fit-content;
+    width: 50vw;
+    background-color: rgb(247, 218, 226);
+    margin-right: 30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.explore {
+    /* padding-top: 30px; */
+    padding-left: 100px;
+    padding: 30px;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+}
+
+.box2 {
+    height: 240px;
+    width: 230px;
+    background-color: rgb(247, 218, 226);
+    margin-right: 40px;
+    text-align: start;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box2 img {
+    height: 180px;
+    width: 230px;
+    border-radius: 12px;
+}
+
+.box2 a {
+    color: rgb(250, 130, 150);
+}
+
+.box2 a:hover {
+    color: rgb(15, 11, 225);
+}
+
+.card {
+    background-color: whitesmoke;
+    height: 35vh;
+    padding: 30px;
+    display: flex;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    margin-left: 180px;
+}
+
+.c {
+    margin-left: 150px;
+}
+
+.c p {
+    color: rgb(79, 72, 72);
+    font-size: 15px;
+    line-height: 30px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: goldenrod;
+    color: rgb(245, 243, 243);
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+.delivery {
+    padding: 40px;
+    text-align: start;
+    padding-left: 150px;
+    display: flex;
+    height: 40vh;
+}
+
+.side {
+    width: 50vw;
+    line-height: 30px;
+}
+
+.side p {
+    color: rgb(42, 41, 41);
+    font-size: 15px;
+}
+
+.images {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    margin: 20px;
+}
+
+.images img {
+    margin-right: 35px;
+}
+
+.i {
+    padding-left: 80px;
+}
+
+.thank {
+    background-color: rgb(231, 180, 50);
+    justify-content: center;
+    display: flex;
+    height: 60vh;
+}
+
+.text h1 {
+    font-size: 20px;
+    margin-top: 180px;
+}
+
+.text p {
+    color: rgb(41, 41, 42);
+    font-size: 12px;
+}
+
+.btn2 {
+    height: 40px;
+    width: 136px;
+    border-radius: 10px;
+    border: none;
+    background-color: gold;
+    color: black;
+}
+
+.thank img {
+    margin: 60px;
+    height: 250px;
+    width: 250px;
+}
+
+.follow {
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    height: 180px;
+}
+
+.follow h1 {
+    font-size: 25px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icons i {
+    margin-right: 20px;
+    background-color: lightblue;
+    height: fit-content;
+    border-radius: 50%;
+    width: fit-content;
+    text-align: center;
+}
+
+.fa {
+    padding: 10px;
+}
+
+.blue {
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+    background-color: rgb(14, 14, 87);
+    padding: 30px;
+}
+
+.blue img {
+    height: 80px;
+    width: 80px;
+}
+
+.blue p {
+    color: azure;
+    font-size: 16px;
+}
+
+.p2 {
+    color: lightcyan;
+    font-size: 8px;
+}
